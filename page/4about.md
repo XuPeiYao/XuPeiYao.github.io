@@ -48,18 +48,22 @@ type: page
 ## 技能
 ### Web Application Backend 
 * 熟練度: ⭐⭐⭐⭐
+
 `ASP.net MVC Core`、`Web API`、`SQL Server`、`Mongo DB`、`PostgreSQL`、`T-SQL`、`Linq`、`EntityFramework Core`、`Node.js`、`Line Message API(Bot)`、`OAuth2`、`JWT`、`Navicat`、`資料庫設計`、`系統分析與設計`
 
 ### Web Application Frontend
 * 熟練度: ⭐⭐⭐
+
 `TypeScript`、`JavaScript`、`Angular7`、`AngularJS`、`HTML5`
 
 ### Desktop Application
 * 熟練度: ⭐⭐⭐
+
 `electron.js`、`Windows Form`、`WPF`
 
 ### Other
 * 熟練度: ⭐⭐⭐
+
 `xUnit`、`jenkins`、`git`、`Google Chrome Extensions`、`Raspberry Pi`、`Ubuntu`
 
 ## 學歷
