@@ -11,7 +11,9 @@ type: page
 
 ## 關於我
 
-<iframe src="https://githubbadge.appspot.com/xupeiyao?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+<img src="https://i.imgur.com/gssYPrW.jpg" width="142" height="142" style="border-radius: 10px 0px 0px 10px;-moz-border-radius: 10px 0px 0px 10px;-webkit-border-radius: 10px 0px 0px 10px;border: 0px solid #000000;">
+
+<iframe src="https://githubbadge.appspot.com/xupeiyao?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden; position: absolute; margin-top: -162px; margin-left: 142px" frameBorder="0"></iframe>
 
 自小喜歡自行摸索與研究電腦，個性友善、積極，對於工作上的要求會力求完美，在每一次的工作中自我精進，不斷地增進自己的專業知識與熟練程度。
 因興趣使然就讀資訊管理系，修習時以程式設計、資料庫管理為主軸，並著重於實作方面，我的專長在於網站後端實作與資料庫設計、系統分析，以成為專業程式設計師為目標。在學期間參與許多的程式設計相關競賽並且獲得許多佳績，此外也利用閒暇精進自己的技術。
