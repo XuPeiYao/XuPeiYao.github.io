@@ -4,12 +4,12 @@ title:  "Git server repositories鏡像至GitHub"
 categories: git
 tags: git gitea github
 author: XuPeiYao
+excerpt_separator: <!--more-->
 ---
 
-* content
-{:toc}
-
 Github在今年一月初開始提供免費的無限數量的private repositories(參考: [New year, new GitHub: Announcing unlimited free private repos and unified Enterprise offering](https://github.blog/2019-01-07-new-year-new-github/))，但每個repository只能有 **三位協作者** ，需要更多人可以協作就必須要購買至少GitHub Pro，或購買GitHub Team(最少25美金)。
+
+<!--more-->
 
 剛好是三個人的團隊就不用去買方案就可以免費使用了，但是如果是超過三人的團隊不想要購買Team方案可以建立一個共用帳號購買Pro方案一起使用，但就沒那麼方便了。
 
