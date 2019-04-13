@@ -10,8 +10,6 @@ excerpt_separator: <!--more-->
 - content
 {:toc}
 
-## 摘要
-
 在API開發過程中使用Swagger作為API文件產生器，但在安全上希望只有通過驗證的使用者才可以觀看Swagger文件畫面，在[ASP.NET Core中有提供Basic HTTP Authentication](http://jasonwatmore.com/post/2018/09/08/aspnet-core-21-basic-authentication-tutorial-with-example-api)，但實作上比較麻煩，在這個案例中只是想要針對特定的路徑做基本驗證，限制文件指有特定的用戶可以存取。
 
 在這篇文章中將使用Middleware實作指定路徑下的基本驗證。

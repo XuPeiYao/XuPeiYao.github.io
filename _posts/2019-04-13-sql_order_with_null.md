@@ -10,8 +10,6 @@ excerpt_separator: <!--more-->
 - content
 {:toc}
 
-## 摘要
-
 使用SQL排序時，若排序基準包含了NULL值，在不同的資料庫中NULL出現的順位不一樣。
 如在SQL Server中NULL在ASC排序中首先出現，在PostgreSQL中是在最後出現。
 因為平時是使用SQL Server，最近使用PostgreSQL上遇到了排序不符習慣的情況。

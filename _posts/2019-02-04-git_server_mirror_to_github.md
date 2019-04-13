@@ -9,8 +9,6 @@ author: XuPeiYao
 - content
 {:toc}
 
-## 摘要
-
 Github 在今年一月初開始提供免費的無限數量的 private repositories(參考: [New year, new GitHub: Announcing unlimited free private repos and unified Enterprise offering](https://github.blog/2019-01-07-new-year-new-github/))，但每個 repository 只能有 **三位協作者** ，需要更多人可以協作就必須要購買至少 GitHub Pro，或購買 GitHub Team(最少 25 美金)。
 
 <!--more-->

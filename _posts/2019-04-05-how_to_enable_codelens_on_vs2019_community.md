@@ -9,8 +9,6 @@ author: XuPeiYao
 - content
 {:toc}
 
-## 摘要
-
 最近 Visual Studio 2019 正式發行，過去在 Visual Studio 2017 Community 版中沒有的 CodeLens 功能這次新版本中已經有這個功能。
 CodeLens 功能可以在方法上方顯示如下圖的方法參考以及單元測試狀況、版本控制等等功能。
 詳細功能說明可參考「[使用 CodeLens 來尋找程式碼歷程記錄](https://docs.microsoft.com/zh-tw/visualstudio/ide/find-code-changes-and-other-history-with-codelens?view=vs-2019)」。
