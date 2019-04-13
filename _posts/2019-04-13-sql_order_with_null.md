@@ -40,6 +40,6 @@ excerpt_separator: <!--more-->
 但我個人並不喜歡直接去使用FromSql，較偏愛使用Expression查詢。就這次的問題而言，就只是NULL值的問題，如果我們將NULL值轉換為0，或者為值域中的 **最小值** 後再排序也是可以獲得一樣的效果。
 直接使用`COALESCE`的方式將NULL轉換為 **最小值** ，在EFCore中可以再調用`OrderBy`或`OrderByDescending`的Expression表示為`x => x.Value ?? 0`。
 
-但如果排序的項目像是`SUM`的結果，在EFCore中`Sum`方法返回的類型是`int`，無法直接使用`??`運算子。
-可以轉型為`int?`表示為`x => ((int?)x.Values.Sum()) ?? 0`的形式，轉譯的SQL終將使用`COALESCE`。
+但如果排序的項目像是`SUM`的結果，在查詢中`Sum`方法返回的類型是非空類型，無法直接使用`??`運算子。
+可以轉型為`Nullable<T>`例如表示為`x => ((int?)x.Values.Sum()) ?? 0`的形式，轉譯的SQL終將使用`COALESCE`。
 但是如果直接將`Sum`結果直接`as int?`後進行`??`表示為`x => x.Values.Sum() as int? ?? 0`，將會變成在本地進行排序，沒有轉譯為SQL查詢。
