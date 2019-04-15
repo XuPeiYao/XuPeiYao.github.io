@@ -2,7 +2,7 @@
 layout: post
 title:  "ASP.NET Core實作自訂HTTP基本驗證"
 categories: .NET
-tags: ASP.NET .NETCore .NET CSharp
+tags: ASP.NET .NETCore .NET CSharp Middleware
 author: XuPeiYao
 excerpt_separator: <!--more-->
 ---
