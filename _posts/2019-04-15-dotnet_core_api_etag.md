@@ -85,7 +85,7 @@ public class ETagBaseController : Controller {
 }
 ```
 
-首先我們要建立一個字典用來儲存各Action的ETag狀態，在本文章中簡單的用一個靜態變數儲存就好。但由於這個字店可能同時有多個併發存取，所以我們必須使用`ConcurrentDictionary`。
+首先我們要建立一個字典用來儲存各Action的ETag狀態，在本文章中簡單的用一個靜態變數儲存就好。但由於這個字典可能同時有多個併發存取，所以我們必須使用`ConcurrentDictionary`。
 
 ```csharp
 // 暫存各Action的ETag
