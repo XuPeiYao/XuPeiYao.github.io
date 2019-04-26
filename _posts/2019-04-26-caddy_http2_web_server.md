@@ -44,7 +44,7 @@ excerpt_separator: <!--more-->
 
 ### 拉取映像並佈署Caddy容器
 
-運行下列指令，並將下列由`<`與`>`框起範圍替換為自己環境的設定。
+運行下列指令，並將下列由`<`與`>`框起範圍替換為自己環境的設定。Port轉發設定中的UDP設定是針對[QUIC](https://zh.wikipedia.org/zh-tw/%E5%BF%AB%E9%80%9FUDP%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5)的功能設定，若不須要此功能可移除該設定。
 
 ```shell
 ~# docker run -d -p 80:80 -p 80:80/udp -p 443:443 -p 443:443/udp -e ACME_AGREE=true -v myCaddyStatic:/srv --name <CONTAINER_NAME> abiosoft/caddy
