@@ -6,12 +6,13 @@ tags: .NETCore .NET Docker
 author: XuPeiYao
 excerpt_separator: <!--more-->
 ---
-
+ 
+- content
+{:toc}
 在VisualStudio中，針對ASP.NET Core專案，提供Docker的快速導入功能，但是在每一次的發行都要重新包裝與上傳一次Docker Image，想要在短時間內快速的佈署測試稍為麻煩，
 在本文中參考原有VisualStudio中提供的Dockerfile，修改後只要針對Volume內容就可以快速測試Docker中的運行結果。
 
-- content
-{:toc}
+<!--more-->
 
 首先將Dockerfile修改如下:
 
