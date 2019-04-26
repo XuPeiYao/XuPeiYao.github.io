@@ -18,3 +18,34 @@ excerpt_separator: <!--more-->
 
 <!--more-->
 
+## 安裝
+
+> 本文使用 **docker** 作為安裝佈署方式，若需要針對實機安裝，可以參考Caddy的[文件](https://caddyserver.com/tutorial)。
+
+### 建立本地Volume
+
+運行以下指令建立本地儲存空間，稍後將映射進去Caddy容器，用來作為儲存靜態頁面的空間。
+
+```shell
+~# docker volume create --name myCaddyStatic
+```
+
+建立完成後可透過以下指令查看是否建立成功:
+
+```shell
+~# docker volume ls
+```
+
+接著在想要的目錄建立一個`Caddyfile`空檔案
+
+```shell
+~# touch Caddyfile
+```
+
+### 拉取映像並佈署Caddy容器
+
+運行下列指令，並將下列由`<`與`>`框起範圍替換為自己環境的設定。
+
+```shell
+~# docker run -d -p 80:80 -p 80:80/udp -p 443:443 -p 443:443/udp -e ACME_AGREE=true -v myCaddyStatic:/srv --name <CONTAINER_NAME> abiosoft/caddy
+```
