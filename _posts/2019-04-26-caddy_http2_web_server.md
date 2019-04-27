@@ -36,16 +36,40 @@ excerpt_separator: <!--more-->
 ~# docker volume ls
 ```
 
-接著在想要的目錄建立一個`Caddyfile`空檔案
+接著在想要的目錄建立一個`Caddyfile`空檔案。
 
 ```shell
 ~# touch Caddyfile
 ```
+
+在Caddyfile檔案內輸入以下內容，本文先以簡易的靜態網頁做為範例:
+
+```
+yourdomain {
+    tls youremail@example.com
+    root /srv
+    gzip
+    browse
+}
+```
+
+將yourdomain替換為自己的網域，以下為參數的簡易說明:
+
+* `tls`項目表示Let's Encrypt註冊信箱
+* `root`項目則為靜態檔案目錄
+* `gzip`表示回應內容使用GZIP壓縮
+* `browse`表示顯示檔案列表
+
+> 如果需要進行Proxy的行為可以使用[proxy](https://caddyserver.com/docs/proxy)；更多的設定可以參考Caddy的[文件](https://caddyserver.com/docs)。
 
 ### 拉取映像並佈署Caddy容器
 
 運行下列指令，並將下列由`<`與`>`框起範圍替換為自己環境的設定。Port轉發設定中的UDP設定是針對[QUIC](https://zh.wikipedia.org/zh-tw/%E5%BF%AB%E9%80%9FUDP%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5)的功能設定，若不須要此功能可移除該設定。
 
 ```shell
-~# docker run -d -p 80:80 -p 80:80/udp -p 443:443 -p 443:443/udp -e ACME_AGREE=true -v myCaddyStatic:/srv --name <CONTAINER_NAME> abiosoft/caddy
+~# docker run -d -p 80:80 -p 80:80/udp -p 443:443 -p 443:443/udp -v myCaddyStatic:/srv -v <YOUR_CADDYFILE_PATH>:/etc/Caddyfile --name <CONTAINER_NAME> abiosoft/caddy --conf /etc/Caddyfile --log stdout --agree=true --quic
 ```
+
+接下來開啟瀏覽器即可看到效果，如果你有在Chrome中安裝[HTTP/2 and SPDY indicator](https://chrome.google.com/webstore/detail/http2-and-spdy-indicator/mpbpobfflnpcgagjijhmgnchggcjblin)套件則擴充元件位置看到閃電的圖示，如未開啟QUIC或目前環境只能執行HTTP/2則顯示紫色的閃電符號，支援的話將顯示綠色。
+
+![Imgur](https://i.imgur.com/2LaaPIX.png)
