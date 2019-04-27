@@ -129,9 +129,9 @@ public class BasicAuthenticateScopeMiddleware<TBaseAuthorizeHandler>
 
 ```csharp
 public class MyBaseAuthorizeHandler: IBaseAuthorizeHandler {    
-    public Task<bool> Authorize(string account, string password){
+    public async Task<bool> Authorize(string account, string password){
         // 帳號密碼等於admin
-        return account == "admin" && password == "admin"
+        return account == "admin" && password == "admin";
     }
 }
 ```
@@ -161,7 +161,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env) {
             Path = "/swagger",
             Realm = "Dev"
         }
-    ));E
+    ));
 
     // 需要基本驗證的內容
     app.UseSwagger();
