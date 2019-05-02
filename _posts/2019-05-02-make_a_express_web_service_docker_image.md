@@ -16,11 +16,14 @@ excerpt_separator: <!--more-->
 
 ## 建立Express應用程式
 
-#### 1.建立一個空目錄`expressTest`並運行`npm init`。
+#### 1.建立NodeJs專案
+建立一個空目錄`expressTest`並運行`npm init`。
 
-#### 2.初始化完成後運行`npm i express`安裝express套件。
+#### 2.安裝Express套件
+初始化完成後運行`npm i express`安裝express套件。
 
-#### 3.修改`package.json`中的`main`為`src/index.js`，且在src目錄內建立這個檔案，使用以下內容:
+#### 3.加入範例
+修改`package.json`中的`main`為`src/index.js`，且在src目錄內建立這個檔案，使用以下內容:
 
 ```javascript
 var express = require('express');
