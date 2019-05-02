@@ -87,5 +87,5 @@ ENTRYPOINT ["node", "."]
 執行以下指令直接執行容器並瀏覽網頁至`localhost`即可看到畫面中顯示`Hello World`內容。
 
 ```shell
-~# docker run -p 80:80 xupeiyao/express-test:latest
+~# docker run -d -p 80:80 xupeiyao/express-test:latest
 ```
