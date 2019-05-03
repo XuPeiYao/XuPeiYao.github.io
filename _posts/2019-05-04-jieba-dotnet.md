@@ -16,3 +16,27 @@ excerpt_separator: <!--more-->
 
 <!--more-->
 
+## 安裝套件
+
+使用套件管理器安裝`Lucene.JIEba.net`或在專案執行以下指令:
+
+```shell
+dotnet add package Lucene.JIEba.net --version 1.0.5
+```
+
+## 使用
+
+引用類別庫。
+
+```chsarp
+using JiebaNet.Segmenter;
+```
+
+宣告分詞器並且輸入文字進行分詞。
+
+```csharp
+var segmenter = new JiebaSegmenter();
+var keywords = segmenter.CutForSearch(myText); //切割為搜尋用的分詞
+```
+
+> 有關結吧分詞詳細的資訊請參考[原專案](https://github.com/fxsjy/jieba)
