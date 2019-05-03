@@ -33,7 +33,7 @@ excerpt_separator: <!--more-->
 
 將package.json修改如下:
 
-```json
+```javascript
 {
   "name": "express-test",
   "version": "1.0.0",
