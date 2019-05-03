@@ -66,6 +66,9 @@ EXPOSE 443
 COPY . . 
 #複製程式碼至容器內的/app目錄
 
+RUN npm i
+#安裝node_module
+
 ENTRYPOINT ["node", "."]
 ```
 
