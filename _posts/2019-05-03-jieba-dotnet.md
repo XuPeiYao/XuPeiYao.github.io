@@ -2,7 +2,7 @@
 layout: post
 title:  ".NET Core也可以使用的中文分詞套件"
 categories: .NET
-tags: .NETCore .NET jieba 分詞 文字處理 搜尋
+tags: .NETCore .NET jieba 分詞 文字處理 搜尋 套件
 author: XuPeiYao
 excerpt_separator: <!--more-->
 ---
