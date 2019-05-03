@@ -42,10 +42,11 @@ app.listen(80, function () {
 #### 4.建立以下的目錄結構
 ```
 expressTest
-┠package.json
-┠Dockerfile
-┠node_modules
-└src─index.js
+├──package.json
+├──Dockerfile
+├──node_modules
+└──src
+   └──index.js
 ```
 
 ## 建立Dockerfile與構建、發布映像
