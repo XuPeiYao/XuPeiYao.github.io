@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "使用Docker部屬Redis資料庫並使用C#存取"
+title:  "使用Docker佈署Redis資料庫並使用C#存取"
 categories: Docker
-tags: Docker NoSQL Redis
+tags: Docker NoSQL Redis 
 author: XuPeiYao
 excerpt_separator: <!--more-->
 ---
