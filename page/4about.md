@@ -66,7 +66,7 @@ type: page
 ### Other
 * 熟練度: ⭐⭐⭐
 
-`xUnit`、`jenkins`、`git`、`Google Chrome Extensions`、`Raspberry Pi`、`Ubuntu`
+`Docker`、`redis`、`xUnit`、`jenkins`、`git`、`Google Chrome Extensions`、`Raspberry Pi`、`Ubuntu`
 
 ## 學歷
 * 國立高雄第一科技大學資訊管理系: 2012/09~2016/06
