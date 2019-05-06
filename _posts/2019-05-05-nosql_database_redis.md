@@ -42,7 +42,7 @@ Redis有著極高的性能以及提供常見的資料結構類型等功能，本
 ~# docker run -d -p 6379:6379 -v redis:/data --name <CONTAINER_NAME> redis:latest --requirepass <YOUR_PASSWORD>
 ```
 
-接下來開啟Redis CLI或GUI工具連接Redis。而我使用`Midis`輸入剛才部屬設定的資訊後連線即可。
+接下來開啟Redis CLI或GUI工具連接Redis。而我使用`Medis`輸入剛才部屬設定的資訊後連線即可。
 
 ![Imgur](https://i.imgur.com/moefXHE.png)
 
