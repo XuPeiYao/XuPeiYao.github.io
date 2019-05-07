@@ -15,3 +15,10 @@ ASP.NET Core提供WebSocket套件，簡單就可以實作，本文將使用套�
 
 <!--more-->
 
+## 專案與環境建置
+
+首先建立一個空的ASP.NET Core網站專案(也可以使用現有的)，使用套件管理器安裝`Microsoft.AspNetCore.WebSockets`或在專案執行以下指令:
+
+```shell
+dotnet add package Microsoft.AspNetCore.WebSockets
+```
