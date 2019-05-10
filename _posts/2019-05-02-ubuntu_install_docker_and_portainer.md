@@ -20,8 +20,10 @@ excerpt_separator: <!--more-->
 
 在終端機執行以下指令:
 
-```shell
+```shellS
 ~# apt install docker.io -y
+~# systemctl enable docker
+~# systemctl start docker
 ```
 
 ## 安裝Portainer
