@@ -64,7 +64,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env) {
 }
 ```
 
-## 將原始使用方法規劃使用Middleware簡化
+## 使用Middleware簡化
 
 ### 建立WebSocket訊息處理類型
 
@@ -322,7 +322,34 @@ public static class WebSocketsMiddlewareExtension {
 
 ### 使用Middleware
 
-現在可以直接在`Startup.Configure`中使用`app.UseWebSockets<THandler>`設定Middleware了!
+先定義一個簡單的回呼處理類別`EchoHandler`繼承剛才定義的`WebSocketHandlerBase`。
+
+```csharp
+public class EchoHandler : WebSocketHandlerBase {
+    /// <summary>
+    /// EchoHandler建構子，由於Handler實例的產生是使用DI，所以在建構子可以使用DI方式取得參數
+    /// </summary>
+    public EchoHandler() {
+        // 訂閱事件
+        Events.Subscribe(socketEvent => {
+            // 接收到訊息
+            if (socketEvent.Type == WebSocketEventType.Received) {
+                // 傳回去
+                socketEvent.WebSocket.SendAsync(
+                    socketEvent.ReceivedData,
+                    socketEvent.MessageType.Value,
+                    true,
+                    CancellationToken.None)
+                    .GetAwaiter()
+                    .GetResult();
+            }
+        }, ex => {
+        });
+    }
+}
+```
+
+現在可以直接在`Startup.Configure`中使用`app.UseWebSockets<THandler>`設定Middleware了。
 
 ```csharp
 app.UseWebSockets<EchoHandler>(
