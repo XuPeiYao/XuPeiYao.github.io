@@ -54,7 +54,7 @@ type: page
 ### Web Application Backend 
 * 熟練度: ⭐⭐⭐⭐
 
-`ASP.net MVC Core`、`Web API`、`Couchbase`、`MariaDB`、`Redis`、`PostgreSQL`、`SQL Server`、`Mongo DB`、`T-SQL`、`Linq`、`EntityFramework Core`、`Node.js`、`Line Message API(Bot)`、`OAuth2`、`JWT`、`WebSockets`、`SignalR`、`資料庫設計`、`系統分析與設計`
+`ASP.net MVC Core`、`Web API`、`Couchbase`、`MariaDB`、`Redis`、`PostgreSQL`、`SQL Server`、`Mongo DB`、`T-SQL`、`Linq`、`EntityFramework Core`、`Node.js`、`Line Message API(Bot)`、`OAuth2`、`JWT`、`WebSockets`、`SignalR`、`第三方登入`、`資料庫設計`、`系統分析與設計`
 
 ### Web Application Frontend
 * 熟練度: ⭐⭐⭐
@@ -69,7 +69,7 @@ type: page
 ### Other
 * 熟練度: ⭐⭐⭐
 
-`Docker`、`xUnit`、`jenkins`、`git`、`Google Chrome Extensions`、`Raspberry Pi`、`Ubuntu`、`Navicat`
+`Docker`、`xUnit`、`jenkins`、`caddy`、`nginx`、`git`、`Google Chrome Extensions`、`Raspberry Pi`、`Ubuntu`、`Navicat`
 
 ## 學歷
 * 國立高雄第一科技大學資訊管理系: 2012/09~2016/06
