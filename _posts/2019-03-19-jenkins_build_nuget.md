@@ -119,6 +119,8 @@ pipeline {
 ## 撰寫build.sh建構腳本
 
 ```shell
+set -e
+
 # Read Version  需要再專案寫入一個version檔案，內容為套件版本號且NewLine符號
 version=$(cat version)
 
