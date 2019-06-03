@@ -20,7 +20,7 @@ excerpt_separator: <!--more-->
 
 在終端機執行以下指令:
 
-```shellS
+```shell
 ~# apt install docker.io -y
 ~# systemctl enable docker
 ~# systemctl start docker
