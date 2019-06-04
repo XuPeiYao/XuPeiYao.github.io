@@ -376,7 +376,8 @@ public async Task Invoke(HttpContext context) {
          ETags[modifiedType.Name] = DateTime.Now.Ticks.ToString();
     }
 
-    if (currentActionId != null) { // 如果調用的是MVC Action
+    if (currentActionId != null &&
+        HttpMethods.IsGet(context.Request.Method)) { // 如果調用的是MVC Action且為GET
         // 如果有找到該Action的回傳類型列表，則將這些類型對應的ETag值串接並計算MD5作為該方法目前的ETag
         string currentETag = "W/\"" + string.Join(",", ActionRefType[currentActionId].Select(x => ETags[x.Name])).ToHashString<MD5>() + "\"";
 
