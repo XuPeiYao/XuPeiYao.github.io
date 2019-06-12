@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "替換Jenkins樣式"
-categories: .NET
+categories: Jenkins
 tags: Jenkins
 author: XuPeiYao
 excerpt_separator: <!--more-->
