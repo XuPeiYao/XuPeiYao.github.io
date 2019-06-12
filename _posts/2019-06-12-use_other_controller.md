@@ -43,3 +43,5 @@ public partial class ThisController : Controller {
     }
 }
 ```
+
+> 有關詳細的原理說明可以參考[這篇文章](https://andrewlock.net/controller-activation-and-dependency-injection-in-asp-net-core-mvc/)。
