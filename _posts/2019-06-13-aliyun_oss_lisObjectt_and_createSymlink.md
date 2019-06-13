@@ -2,7 +2,7 @@
 layout: post
 title:  "阿里雲OSS列出所有物件並建立軟連結"
 categories: .NET
-tags: ASP.NET .NETCore .NET CSharp MVC DI
+tags: .NETCore .NET CSharp OSS Aliyun
 author: XuPeiYao
 excerpt_separator: <!--more-->
 ---
@@ -17,6 +17,12 @@ excerpt_separator: <!--more-->
 <!--more-->
 
 ## 引用阿里雲OSS NuGet套件
+
+首先建立一個空的.NET Core的Console專案，使用套件管理器安裝Aliyun.OSS.SDK.NetCore或在專案執行以下指令:
+
+```
+dotnet add package Aliyun.OSS.SDK.NetCore
+```
 
 ## 列出Bucket中的所有物件
 
