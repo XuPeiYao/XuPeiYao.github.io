@@ -154,6 +154,8 @@ channel.BasicConsume( // 綁定Consumer
 轉檔成功: D:\OutputFiles\71515394-908a-4f07-a4f8-d3329e88d368.mp4
 ```
 
+本篇文章程式碼放置於此: [https://github.com/XuPeiYao/DotNetCore_RabbitMQ](https://github.com/XuPeiYao/DotNetCore_RabbitMQ)
+
 > 本篇參考資料:
 > 1. [https://www.cnblogs.com/rader/archive/2012/06/28/2567779.html](https://www.cnblogs.com/rader/archive/2012/06/28/2567779.html)
 > 2. [https://blog.gtwang.org/programming/rabbitmq-work-queues-in-python/](https://blog.gtwang.org/programming/rabbitmq-work-queues-in-python/)
