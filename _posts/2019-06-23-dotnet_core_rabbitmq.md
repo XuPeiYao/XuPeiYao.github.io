@@ -20,7 +20,9 @@ excerpt_separator: <!--more-->
 
 ## 基本概念
 
-這邊只針對Queue的處理做一個簡單的說明，關於RabbitMQ的處理請參考[官方文件](https://www.rabbitmq.com/documentation.html)將一個Message放入RabbitMQ的Queue中，RMQ將會透過Exchange把訊息分配給對應的Consumer，當Consumer正確的處理訊息後則要回復ACK訊息，此時RMQ將把這個UNACK的訊息自Queue剔除。
+這邊只針對Queue的處理做一個簡單的說明，關於RabbitMQ的處理請參考[官方文件](https://www.rabbitmq.com/documentation.html)
+
+將一個Message放入RabbitMQ的Queue中，RMQ將會透過Exchange把訊息分配給對應的Consumer，當Consumer正確的處理訊息後則要回復ACK訊息，此時RMQ將把這個UNACK的訊息自Queue剔除。
 如果處理不正常或拒絕處理也可以使用NACK將訊息重新地放回Queue，或直接REJECT。
 
 ## 實作
