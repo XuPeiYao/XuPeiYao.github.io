@@ -29,7 +29,7 @@ excerpt_separator: <!--more-->
 
 ### 工作派發程式
 
-首先建立RMQ連線與Channel
+首先建立RMQ連線與Channel。
 
 ```csharp
 var factory = new ConnectionFactory() { HostName = "192.168.1.2" };
