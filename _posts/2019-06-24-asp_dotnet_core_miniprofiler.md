@@ -84,3 +84,9 @@ public void Test() {
 加入以上的程式碼區塊後，MiniProfiler報告將顯示個步驟的耗時。
 
 ![Imgur](https://i.imgur.com/2PYwBR2.png)
+
+## 檢視EntityFrameworkCore查詢資訊
+
+如果有安裝最前面提到的`MiniProfiler.EntityFrameworkCore`套件，則可以在詳細報告中得到EntityFrameworkCore的查詢耗時資訊。
+
+![Imgur](https://i.imgur.com/4SWI7XI.png)
