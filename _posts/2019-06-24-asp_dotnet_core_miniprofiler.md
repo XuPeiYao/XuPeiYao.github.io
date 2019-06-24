@@ -34,3 +34,17 @@ dotnet add package MiniProfiler.AspNetCore.Mvc
 dotnet add package MiniProfiler.EntityFrameworkCore
 ```
 
+## 加入DI
+
+在`Startup.ConfigureServices`方法中加入以下段落:
+
+```csharp
+services.AddMiniProfiler(o => {
+        o.RouteBasePath = "/profiler"; // MiniProfiler報告路徑，以本範例為例，報告檢視路徑為 /profiler/results
+    })
+    .AddEntityFramework(); // 此行只在前項中有安裝`MiniProfiler.EntityFrameworkCore`套件才需要
+```
+
+## 加入Middleware
+
+## 加入
