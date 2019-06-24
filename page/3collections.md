@@ -97,6 +97,7 @@ type: page
 23. [fontmin](https://github.com/ecomfe/fontmin): 提取字體子集套件
 24. [Chart.js](https://github.com/chartjs/Chart.js): 圖表
 25. [ant.design](https://ant.design/): 前端UI
+26. [xregexp](https://github.com/slevithan/xregexp): 進階Regex擴充包
 
 ## 文章回覆
 
