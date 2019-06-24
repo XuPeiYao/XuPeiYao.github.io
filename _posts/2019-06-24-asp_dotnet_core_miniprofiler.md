@@ -62,3 +62,25 @@ MiniProfiler只會顯示最後一次的Request的報告，所以在進入報告�
 本範例使用SwaggerUI調用`GET /api/Values`項目，之後瀏覽`/profiler/results`即可看到以下畫面。
 
 ![Imgur](https://i.imgur.com/YvmwcV9.png)
+
+## 加入詳細的效能計數
+
+上面步驟中顯示的報告僅是整個管線流程的耗時，若要針對個別程序去做計數報告，則需要在所需部分加入如以下的程式碼區塊:
+
+```csharp
+[HttpGet]
+public void Test() {
+    using (MiniProfiler.Current.Step("Get!")) {
+        using (MiniProfiler.Current.Step("Do Something 1")) {
+            Thread.Sleep(100);
+        }
+        using (MiniProfiler.Current.Step("Do Something 2")) {
+            Thread.Sleep(200);
+        }
+    }
+}
+```
+
+加入以上的程式碼區塊後，MiniProfiler報告將顯示個步驟的耗時。
+
+![Imgur](https://i.imgur.com/2PYwBR2.png)
