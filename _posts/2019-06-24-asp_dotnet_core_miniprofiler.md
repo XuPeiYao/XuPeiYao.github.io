@@ -47,4 +47,18 @@ services.AddMiniProfiler(o => {
 
 ## 加入Middleware
 
-## 加入
+在`Startup.Configure`方法中加入以下Middleware:
+
+```csharp
+app.UseMiniProfiler();
+```
+
+## 檢視報告
+
+經過以上的過程，已經在ASP.NET Core專案中加入一個基本的MiniProfiler基本設定了。
+
+MiniProfiler只會顯示最後一次的Request的報告，所以在進入報告路徑前需要調用要觀察的API一次。
+
+本範例使用SwaggerUI調用`GET /api/Values`項目，之後瀏覽`/profiler/results`即可看到以下畫面。
+
+![Imgur](https://i.imgur.com/YvmwcV9.png)
