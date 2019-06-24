@@ -66,6 +66,10 @@ type: page
 52. [Chloe](https://github.com/shuxinqin/Chloe): 輕量級ORM框架
 53. [HtmlSanitizer](https://github.com/mganss/HtmlSanitizer): 清除HTML中的XSS隱患
 54. [NetEscapades.AspNetCore.SecurityHeaders](https://github.com/andrewlock/NetEscapades.AspNetCore.SecurityHeaders): 加入安全標頭中間層
+55. [MiniProfiler](https://github.com/MiniProfiler/dotnet): 簡單的效能分析工具
+56. [Jil](https://github.com/kevin-montrose/Jil): 快速的JSON序列化套件
+57. [PCRE.NET](https://github.com/ltrzesniewski/pcre-net): Perl Compatible Regular Expressions
+58. [refit](https://github.com/reactiveui/refit): 自動REST客戶端類別庫
 
 ## NodeJS
 1. [sequelize](https://github.com/sequelize/sequelize): ORM
