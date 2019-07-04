@@ -18,7 +18,7 @@ excerpt_separator: <!--more-->
 
 ## 引用套件
 
-### JS
+### HTML
 
 可以直接在HTML中插入以下UNPKG的Script，直接在瀏覽器中使用。
 
