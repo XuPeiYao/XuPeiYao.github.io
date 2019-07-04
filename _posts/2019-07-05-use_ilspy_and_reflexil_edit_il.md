@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
 {:toc}
 
 [ILSpy](https://github.com/icsharpcode/ILSpy)是個針對.NET的開源的反組譯工具，可以將EXE或DLL的IL反組譯為C#程式碼；而加上了[Reflexil](http://reflexil.net/)套件則可以進一步的去編輯EXE或DLL的內容。
-本文將簡單的說明ILSpy的下載安裝、以及加入Reflexil套件。
+本文將簡單的說明ILSpy的下載安裝、以及加入Reflexil套件，並簡單替換一個Hello World的程式輸出的文字。
 
 <!--more-->
 
