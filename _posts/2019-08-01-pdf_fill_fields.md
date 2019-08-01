@@ -24,27 +24,27 @@ excerpt_separator: <!--more-->
 
 進入PDFescape網站，點選`Upload PDF to PDFescape`選擇檔案上傳。
 
-![Imgur](https://imgur.com/3fhUUiY)
+![Imgur](https://i.imgur.com/3fhUUiY.png)
 
 ### 加入輸入欄位
 
 上傳成功後即可看到PDF編輯器畫面，此時選擇左方工具中的`Form Field`項目。
 
-![Imgur](https://imgur.com/sx9M9Ik)
+![Imgur](https://i.imgur.com/sx9M9Ik.png)
 
 欄位類型選擇`Text`或所需要的類型點選`Select`。
 
-![Imgur](https://imgur.com/e6AoDQH)
+![Imgur](https://i.imgur.com/e6AoDQH.png)
 
 之後用滑鼠圈選出欄位範圍。
 
-![Imgur](https://imgur.com/M1SEGzB)
+![Imgur](https://i.imgur.com/M1SEGzB.png)
 
 > 在本文中的圖片欄位將使用Text類型圈選範圍。
 
 最後在該欄位上點選滑鼠右鍵，選擇`Object Properties`項目。
 
-![Imgur](https://imgur.com/NTtmHwr)
+![Imgur](https://i.imgur.com/NTtmHwr.png)
 
 設定欄位屬性並且針對該欄位命名，這個在稍後的套版過程中會使用到。
 
