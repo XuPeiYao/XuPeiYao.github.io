@@ -175,4 +175,6 @@ acroFields.RemoveField("Photo");
 
 ### 完成
 
+本範例的文字與圖片套版效果如下圖:
+
 ![Imgur](https://i.imgur.com/XrYLPIr.png)
