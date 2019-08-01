@@ -70,8 +70,109 @@ excerpt_separator: <!--more-->
 dotnet add package iTextSharp.LGPLv2.Core
 ```
 
-### 文字欄位設定
+### 讀取檔案並設定文字欄位值
+
+首先開啟要套版的PDF與套版結果輸出的檔案。
+
+```csharp
+using (var inputStream = new FileStream("template.pdf", FileMode.Open))
+using (var outputStream = File.Create($"result-{DateTime.Now.Ticks}.pdf")) {
+}
+```
+
+在Using區塊內開始主要的PDF套版操作。
+
+首先使用PdfReader與PdfStamper讀寫PDF。
+
+```csharp
+// 讀取PDF
+PdfReader pdfReader = new PdfReader(inputStream);
+var pdfStamper = new PdfStamper(pdfReader, outputStream);
+```
+
+接下來加入標楷體字體，這個過程是為了避免中文亂碼問題。
+
+```csharp
+// 讀取標楷體字體
+BaseFont chBaseFont = BaseFont.CreateFont(@"C:\windows\fonts\kaiu.ttf", BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
+```
+
+加入字體後要修正所有欄位中使用的字體設定，如果沒有變更字體的需要可以省略這個步驟。
+
+```csharp
+// 取得PDF中的表單欄位
+AcroFields acroFields = pdfStamper.AcroFields;
+
+foreach (string field in acroFields.Fields.Keys) {
+    // 更新字體
+    acroFields.SetFieldProperty(field, "textfont", chBaseFont, null);
+}
+```
+
+欄位設定調整完成後接下來就可以設定欄位的值了，這裡的欄位名稱是在樣板PDF中決定的。
+
+```csharp
+acroFields.SetField("Name", "王小明");
+acroFields.SetField("Location", "台灣");
+acroFields.SetField("BloodType", "O");
+acroFields.SetField("Birthday_Y", "99");
+acroFields.SetField("Birthday_M", "11");
+acroFields.SetField("Birthday_D", "22");
+acroFields.SetField("Gender", "男");
+acroFields.SetField("MilitaryService", "未役");
+```
+
+經過上述操作已經完成了PDF的套版，接下來只要進行以下指令就完成PDF文字部分的套版，可以在剛才定義的PDF輸出路徑中取得成品。
+
+```csharp
+// 設定PDF壓縮
+pdfStamper.SetFullCompression();
+
+// PDF表單扁平化
+pdfStamper.FormFlattening = true;
+
+pdfStamper.Close();
+```
 
 ### 插入圖片
 
+上面動作只完成了文字部分的套版，如果樣板中有插入圖片(如:大頭照)等需求，可以在製作樣板過程中使用文字框拉出區域來定義範圍以及欄位名稱，這個小節將講述如何在PDF中插入圖片並放到文字欄位所定義的範圍內。
+
+首先讀取要插入的圖片。
+
+```csharp
+//讀取圖片
+var photo = Image.GetInstance(
+    Path.Combine(Directory.GetCurrentDirectory(), "TEST.jpg")
+);
+```
+
+取得要填充的文字框位置，並縮放圖片。
+
+```csharp
+// 取得Photo文字框的位置，index=0為所在頁數，index=1~4則是左上與右下角座標
+var photoSize = acroFields.GetFieldPositions("Photo");
+
+// 依照文字框大小進行縮放
+photo.ScaleAbsolute(photoSize[3] - photoSize[1], photoSize[4] - photoSize[2]);
+
+// 設定圖片位置等於文字框座標
+photo.SetAbsolutePosition(photoSize[1], photoSize[2]);
+```
+
+接下來因為要在現有的PDF中插入圖片，所以必須要取得指定頁數的OverContent，並且插入後要移除掉用來定位的文字欄位。
+
+```csharp
+// 取得Photo文字框所在頁的OverContent
+var photoOverContent = pdfStamper.GetOverContent((int)photoSize[0]);
+
+// 加入圖片
+photoOverContent.AddImage(photo);
+
+// 移除Photo文字框
+acroFields.RemoveField("Photo");
+```
+
 ### 完成
+
+
