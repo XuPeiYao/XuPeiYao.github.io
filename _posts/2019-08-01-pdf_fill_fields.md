@@ -48,9 +48,17 @@ excerpt_separator: <!--more-->
 
 設定欄位屬性並且針對該欄位命名，這個在稍後的套版過程中會使用到。
 
+![Imgur](https://i.imgur.com/NfM9snq.png)
 
+本文將這份PDF處理成下面這個樣子:
+
+![Imgur](https://i.imgur.com/vqWBa3J.png)
 
 ### 匯出
+
+接下來點選編輯器左方的`Save and Download PDF`按鈕下載PDF。
+
+![Imgur](https://i.imgur.com/fDHod7A.png)
 
 ## 開始套版
 
