@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "變更Docker儲存路徑"
-categories: .NET
+categories: Docker
 tags: Docker
 author: XuPeiYao
 excerpt_separator: <!--more-->
