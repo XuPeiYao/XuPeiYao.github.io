@@ -64,6 +64,12 @@ excerpt_separator: <!--more-->
 
 ### 安裝套件
 
+使用套件管理器安裝`iTextSharp.LGPLv2.Core`或在專案執行以下指令:
+
+```
+dotnet add package iTextSharp.LGPLv2.Core
+```
+
 ### 文字欄位設定
 
 ### 插入圖片
