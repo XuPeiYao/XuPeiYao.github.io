@@ -22,6 +22,8 @@ excerpt_separator: <!--more-->
 
 ```shell
 ~# apt install docker.io -y
+~# systemctl enable docker
+~# systemctl start docker
 ```
 
 ## 安裝Portainer

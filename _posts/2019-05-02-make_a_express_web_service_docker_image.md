@@ -16,11 +16,14 @@ excerpt_separator: <!--more-->
 
 ## 建立Express應用程式
 
-#### 1.建立一個空目錄`expressTest`並運行`npm init`。
+#### 1.建立NodeJs專案
+建立一個空目錄`expressTest`並運行`npm init`。
 
-#### 2.初始化完成後運行`npm i express`安裝express套件。
+#### 2.安裝Express套件
+初始化完成後運行`npm i express`安裝express套件。
 
-#### 3.修改`package.json`中的`main`為`src/index.js`，且在src目錄內建立這個檔案，使用以下內容:
+#### 3.加入範例
+修改`package.json`中的`main`為`src/index.js`，且在src目錄內建立這個檔案，使用以下內容:
 
 ```javascript
 var express = require('express');
@@ -39,10 +42,11 @@ app.listen(80, function () {
 #### 4.建立以下的目錄結構
 ```
 expressTest
-┠package.json
-┠Dockerfile
-┠node_modules
-└src─index.js
+├──package.json
+├──Dockerfile
+├──node_modules
+└──src
+   └──index.js
 ```
 
 ## 建立Dockerfile與構建、發布映像
@@ -62,6 +66,9 @@ EXPOSE 443
 
 COPY . . 
 #複製程式碼至容器內的/app目錄
+
+RUN npm i
+#安裝node_module
 
 ENTRYPOINT ["node", "."]
 ```
@@ -84,5 +91,5 @@ ENTRYPOINT ["node", "."]
 執行以下指令直接執行容器並瀏覽網頁至`localhost`即可看到畫面中顯示`Hello World`內容。
 
 ```shell
-~# docker run -p 80:80 xupeiyao/express-test:latest
+~# docker run -d -p 80:80 xupeiyao/express-test:latest
 ```

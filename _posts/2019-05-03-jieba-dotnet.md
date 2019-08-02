@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  ".NET Core也可以使用的結巴中文分詞套件"
+title:  ".NET Core也可以使用的中文分詞套件"
 categories: .NET
-tags: .NETCore .NET jieba 分詞 文字處理 搜尋
+tags: .NETCore .NET jieba 分詞 文字處理 搜尋 套件
 author: XuPeiYao
 excerpt_separator: <!--more-->
 ---
@@ -21,14 +21,14 @@ excerpt_separator: <!--more-->
 使用套件管理器安裝`Lucene.JIEba.net`或在專案執行以下指令:
 
 ```shell
-dotnet add package Lucene.JIEba.net --version 1.0.5
+dotnet add package Lucene.JIEba.net
 ```
 
 ## 使用
 
 引用類別庫。
 
-```chsarp
+```csharp
 using JiebaNet.Segmenter;
 ```
 
