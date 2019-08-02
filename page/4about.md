@@ -36,6 +36,9 @@ type: page
 
 ## 其他工作經歷
 
+### 2019
+* [BSL俱樂部](https://be-smart-loser.com/): VPS架設以及資料庫架設與建置、後端開發、CI/CD佈署等。
+
 ### 2018
 * [潛行者事務所形象網站](http://divewalker.project.lightup-studio.com/): 依照網站需求進行資料庫設計以及後端API開發、站台架設。
 
@@ -51,12 +54,12 @@ type: page
 ### Web Application Backend 
 * 熟練度: ⭐⭐⭐⭐
 
-`ASP.net MVC Core`、`Web API`、`SQL Server`、`Mongo DB`、`PostgreSQL`、`T-SQL`、`Linq`、`EntityFramework Core`、`Node.js`、`Line Message API(Bot)`、`OAuth2`、`JWT`、`Navicat`、`資料庫設計`、`系統分析與設計`
+`ASP.net MVC Core`、`Web API`、`Couchbase`、`MariaDB`、`Redis`、`PostgreSQL`、`SQL Server`、`Mongo DB`、`T-SQL`、`Linq`、`EntityFramework Core`、`Node.js`、`Line Message API(Bot)`、`OAuth2`、`JWT`、`WebSockets`、`SignalR`、`第三方登入`、`資料庫設計`、`系統分析與設計`
 
 ### Web Application Frontend
 * 熟練度: ⭐⭐⭐
 
-`TypeScript`、`JavaScript`、`Angular7`、`AngularJS`、`HTML5`
+`TypeScript`、`JavaScript`、`Angular7`、`AngularJS`、`HTML5`、`WebSockets`
 
 ### Desktop Application
 * 熟練度: ⭐⭐⭐
@@ -66,7 +69,7 @@ type: page
 ### Other
 * 熟練度: ⭐⭐⭐
 
-`Docker`、`redis`、`xUnit`、`jenkins`、`git`、`Google Chrome Extensions`、`Raspberry Pi`、`Ubuntu`
+`Docker`、`xUnit`、`jenkins`、`caddy`、`nginx`、`git`、`Google Chrome Extensions`、`Raspberry Pi`、`Ubuntu`、`Navicat`、`Jekyll`
 
 ## 學歷
 * 國立高雄第一科技大學資訊管理系: 2012/09~2016/06

@@ -97,16 +97,16 @@ public class BasicAuthenticateScopeMiddleware<TBaseAuthorizeHandler>
                         // 通過驗證則繼續處理後去動作
                         await Next(context);
                     } else {
-                        // 驗證失敗拋出403狀態與錯誤訊息
-                        context.Response.StatusCode = StatusCodes.Status403Forbidden;
+                        // 驗證失敗拋出401狀態與錯誤訊息
+                        context.Response.StatusCode = StatusCodes.Status401Unauthorized;
                         context.Response.ContentType = "text/plain";
-                        await context.Response.WriteAsync("403 Forbidden.");
+                        await context.Response.WriteAsync("401 Unauthorized.");
                     }
                 } catch {
                     // 驗證與剖析過程出現例外，拋回錯誤
-                    context.Response.StatusCode = StatusCodes.Status403Forbidden;
+                    context.Response.StatusCode = StatusCodes.Status401Unauthorized;
                     context.Response.ContentType = "text/plain";
-                    await context.Response.WriteAsync("403 Forbidden.");
+                    await context.Response.WriteAsync("401 Unauthorized.");
                 }
             } else {
                 // 未攜帶資訊，拋出驗證需求標頭、401狀態以及realm資訊
