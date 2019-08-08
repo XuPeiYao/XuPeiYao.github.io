@@ -70,6 +70,8 @@ type: page
 56. [Jil](https://github.com/kevin-montrose/Jil): 快速的JSON序列化套件
 57. [PCRE.NET](https://github.com/ltrzesniewski/pcre-net): Perl Compatible Regular Expressions
 58. [refit](https://github.com/reactiveui/refit): 自動REST客戶端類別庫
+59. [StackExchange.Utils](https://github.com/StackExchange/StackExchange.Utils): 方便的HTTP Client
+60. [Firewall](https://github.com/dustinmoris/Firewall): 針對ASP.NET Core IP過濾Middleware
 
 ## NodeJS
 1. [sequelize](https://github.com/sequelize/sequelize): ORM
