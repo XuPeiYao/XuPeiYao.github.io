@@ -82,6 +82,7 @@ type: page
 68. [SharpZipLib](https://github.com/icsharpcode/SharpZipLib): ZIP壓縮套件
 69. [ZeroFormatter](https://github.com/neuecc/ZeroFormatter): 快速序列化套件
 70. [QRCoder](https://github.com/codebude/QRCoder): QRCode編碼
+71. [linq2db.EntityFrameworkCore](https://github.com/linq2db/linq2db.EntityFrameworkCore): EntityFrameworkCore帶入Linq2DB功能
 
 ## NodeJS
 1. [sequelize](https://github.com/sequelize/sequelize): ORM
