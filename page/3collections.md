@@ -72,7 +72,7 @@ type: page
 58. [refit](https://github.com/reactiveui/refit): 自動REST客戶端類別庫
 59. ⭐[StackExchange.Utils](https://github.com/StackExchange/StackExchange.Utils): 方便的HTTP Client
 60. ⭐[Firewall](https://github.com/dustinmoris/Firewall): 針對ASP.NET Core IP過濾Middleware
-61. [Fleck](https://github.com/statianzo/Fleck): C#的Websockets實作
+61. ⭐[Fleck](https://github.com/statianzo/Fleck): C#的Websockets實作
 62. [ImageSharp](https://github.com/SixLabors/ImageSharp): 跨平台圖片處理類別庫
 63. [C-Sharp-Algorithms](https://github.com/aalhour/C-Sharp-Algorithms): C#常用演算法
 64. [websocket-sharp](https://github.com/sta/websocket-sharp): C#的Websockets實作
@@ -83,6 +83,7 @@ type: page
 69. [ZeroFormatter](https://github.com/neuecc/ZeroFormatter): 快速序列化套件
 70. [QRCoder](https://github.com/codebude/QRCoder): QRCode編碼
 71. ⭐[linq2db.EntityFrameworkCore](https://github.com/linq2db/linq2db.EntityFrameworkCore): EntityFrameworkCore帶入Linq2DB功能
+72. ⭐[Castle.Core](https://github.com/castleproject/Core): 物件Proxy
 
 ## NodeJS
 1. [sequelize](https://github.com/sequelize/sequelize): ORM
