@@ -86,6 +86,19 @@ type: page
 72. ⭐[Castle.Core](https://github.com/castleproject/Core): 物件Proxy
 73. [DnsServer](https://github.com/TechnitiumSoftware/DnsServer): DNS Server
 74. [DNS-over-HTTPS](https://github.com/TechnitiumSoftware/DNS-over-HTTPS): DNS-over-HTTPS
+75. [RestSharp](https://github.com/restsharp/RestSharp): Rest Client
+76. [IdentityServer4](https://github.com/IdentityServer/IdentityServer4): Open與OAuth2的ASP.NET Core框架
+77. ⭐[FluentValidation](https://github.com/JeremySkinner/FluentValidation): 字串驗證
+78. [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet): 效能基準測試
+79. [GraphQL for .NET](https://github.com/graphql-dotnet/graphql-dotnet): GQL
+80. [MailKit](https://github.com/jstedfast/MailKit): Email Client
+81. [Autofac](https://github.com/autofac/Autofac): DI容器
+82. [DotnetSpider](https://github.com/dotnetcore/DotnetSpider): 爬蟲
+83. [elasticsearch-net](https://github.com/elastic/elasticsearch-net): Elasticsearch Client
+84. [FluentScheduler](https://github.com/fluentscheduler/FluentScheduler): 排程
+85. [EasyNetQ](https://github.com/EasyNetQ/EasyNetQ): RabbitMQ Client
+86. [jwt](https://github.com/jwt-dotnet/jwt): JWT
+87. [MagicOnion](https://github.com/Cysharp/MagicOnion): 類似gRPC
 
 ## NodeJS
 1. [sequelize](https://github.com/sequelize/sequelize): ORM
