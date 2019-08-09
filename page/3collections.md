@@ -84,6 +84,8 @@ type: page
 70. [QRCoder](https://github.com/codebude/QRCoder): QRCode編碼
 71. ⭐[linq2db.EntityFrameworkCore](https://github.com/linq2db/linq2db.EntityFrameworkCore): EntityFrameworkCore帶入Linq2DB功能
 72. ⭐[Castle.Core](https://github.com/castleproject/Core): 物件Proxy
+73. [DnsServer](https://github.com/TechnitiumSoftware/DnsServer): DNS Server
+74. [DNS-over-HTTPS](https://github.com/TechnitiumSoftware/DNS-over-HTTPS): DNS-over-HTTPS
 
 ## NodeJS
 1. [sequelize](https://github.com/sequelize/sequelize): ORM
