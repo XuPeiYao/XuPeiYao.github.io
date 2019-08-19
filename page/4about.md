@@ -38,6 +38,7 @@ type: page
 
 ### 2019
 * [BSL俱樂部](https://be-smart-loser.com/): VPS架設以及資料庫架設與建置、後端開發、CI/CD佈署等。
+* 能源系統風險評估平台: 後端撰寫、資料庫架設與環境建置、CI/CD等。
 
 ### 2018
 * [潛行者事務所形象網站](http://divewalker.project.lightup-studio.com/): 依照網站需求進行資料庫設計以及後端API開發、站台架設。
@@ -69,7 +70,7 @@ type: page
 ### Other
 * 熟練度: ⭐⭐⭐
 
-`Docker`、`xUnit`、`jenkins`、`caddy`、`nginx`、`git`、`Google Chrome Extensions`、`Raspberry Pi`、`Ubuntu`、`Navicat`、`Jekyll`
+`Sentry`、`FCM`、`Moq`、`Docker`、`xUnit`、`jenkins`、`caddy`、`nginx`、`git`、`Google Chrome Extensions`、`Raspberry Pi`、`Ubuntu`、`Navicat`、`Jekyll`
 
 ## 學歷
 * 國立高雄第一科技大學資訊管理系: 2012/09~2016/06
