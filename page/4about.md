@@ -55,12 +55,12 @@ type: page
 ### Web Application Backend 
 * 熟練度: ⭐⭐⭐⭐
 
-`ASP.net MVC Core`、`Web API`、`Couchbase`、`MariaDB`、`Redis`、`PostgreSQL`、`SQL Server`、`Mongo DB`、`T-SQL`、`Linq`、`EntityFramework Core`、`Node.js`、`Line Message API(Bot)`、`OAuth2`、`JWT`、`WebSockets`、`SignalR`、`第三方登入`、`資料庫設計`、`系統分析與設計`
+`ASP.net MVC Core`、`Web API`、`RabbitMQ`、`Couchbase`、`MariaDB`、`Redis`、`PostgreSQL`、`SQL Server`、`Mongo DB`、`T-SQL`、`Linq`、`EntityFramework Core`、`Node.js`、`Line Message API(Bot)`、`OAuth2`、`JWT`、`WebSockets`、`SignalR`、`第三方登入`、`資料庫設計`、`系統分析與設計`
 
 ### Web Application Frontend
 * 熟練度: ⭐⭐⭐
 
-`TypeScript`、`JavaScript`、`Angular7`、`AngularJS`、`HTML5`、`WebSockets`
+`TypeScript`、`JavaScript`、`Angular7`、`HTML5`、`WebSockets`
 
 ### Desktop Application
 * 熟練度: ⭐⭐⭐
