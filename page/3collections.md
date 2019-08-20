@@ -69,7 +69,7 @@ type: page
 55. ⭐[MiniProfiler](https://github.com/MiniProfiler/dotnet): 簡單的效能分析工具
 56. [Jil](https://github.com/kevin-montrose/Jil): 快速的JSON序列化套件
 57. ⭐[PCRE.NET](https://github.com/ltrzesniewski/pcre-net): Perl Compatible Regular Expressions
-58. [refit](https://github.com/reactiveui/refit): 自動REST客戶端類別庫
+58. ⭐[refit](https://github.com/reactiveui/refit): 自動REST客戶端類別庫
 59. ⭐[StackExchange.Utils](https://github.com/StackExchange/StackExchange.Utils): 方便的HTTP Client
 60. ⭐[Firewall](https://github.com/dustinmoris/Firewall): 針對ASP.NET Core IP過濾Middleware
 61. ⭐[Fleck](https://github.com/statianzo/Fleck): C#的Websockets實作
@@ -99,6 +99,8 @@ type: page
 85. [EasyNetQ](https://github.com/EasyNetQ/EasyNetQ): RabbitMQ Client
 86. [jwt](https://github.com/jwt-dotnet/jwt): JWT
 87. [MagicOnion](https://github.com/Cysharp/MagicOnion): 類似gRPC
+88. ⭐[Humanizer](https://github.com/Humanizr/Humanizer): 駝峰字串與普通字串互轉
+89. ⭐[AspNetCoreRateLimit](https://github.com/stefanprodan/AspNetCoreRateLimit): ASP.NET Core請求上限
 
 ## NodeJS
 1. [sequelize](https://github.com/sequelize/sequelize): ORM
