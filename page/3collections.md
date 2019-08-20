@@ -77,7 +77,7 @@ type: page
 63. [C-Sharp-Algorithms](https://github.com/aalhour/C-Sharp-Algorithms): C#常用演算法
 64. [websocket-sharp](https://github.com/sta/websocket-sharp): C#的Websockets實作
 65. [stateless](https://github.com/dotnet-state-machine/stateless): 狀態機
-66. [Common.Utility](https://github.com/Jimmey-Jiang/Common.Utility): 常用指令
+66. ⭐[Common.Utility](https://github.com/Jimmey-Jiang/Common.Utility): 常用指令
 67. [language-ext](https://github.com/louthy/language-ext): C# 函數式語言擴充
 68. ⭐[SharpZipLib](https://github.com/icsharpcode/SharpZipLib): ZIP壓縮套件
 69. [ZeroFormatter](https://github.com/neuecc/ZeroFormatter): 快速序列化套件
@@ -101,6 +101,17 @@ type: page
 87. [MagicOnion](https://github.com/Cysharp/MagicOnion): 類似gRPC
 88. ⭐[Humanizer](https://github.com/Humanizr/Humanizer): 駝峰字串與普通字串互轉
 89. ⭐[AspNetCoreRateLimit](https://github.com/stefanprodan/AspNetCoreRateLimit): ASP.NET Core請求上限
+90. ⭐[MediatR](https://github.com/jbogard/MediatR): 中介模式實現
+91. ⭐[MessagePack-CSharp](https://github.com/neuecc/MessagePack-CSharp): 訊息序列化
+92. ⭐[Flurl](https://github.com/tmenier/Flurl):URL構建器和可測試的HTTP客戶端
+93. [octokit.net](https://github.com/octokit/octokit.net): GitHub API Client
+94. [FluentScheduler](https://github.com/fluentscheduler/FluentScheduler): 排程
+95. ⭐[commandline](https://github.com/commandlineparser/commandline): 命令列剖析
+96. ⭐[shouldly](https://github.com/shouldly/shouldly): 斷言庫
+97. [ACMESharp](https://github.com/ebekker/ACMESharp): ACME(Let's Encrypt)
+98. [Rebus](https://github.com/rebus-org/Rebus):精簡服務總線
+99. [NanoFabric](https://github.com/geffzhang/NanoFabric): MicroService開發框架
+100. [microdot](https://github.com/gigya/microdot):MicroService開發框架
 
 ## NodeJS
 1. [sequelize](https://github.com/sequelize/sequelize): ORM
