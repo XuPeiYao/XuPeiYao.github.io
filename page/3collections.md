@@ -111,7 +111,9 @@ type: page
 97. [ACMESharp](https://github.com/ebekker/ACMESharp): ACME(Let's Encrypt)
 98. [Rebus](https://github.com/rebus-org/Rebus):精簡服務總線
 99. [NanoFabric](https://github.com/geffzhang/NanoFabric): MicroService開發框架
-100. [microdot](https://github.com/gigya/microdot):MicroService開發框架
+100. [microdot](https://github.com/gigya/microdot): MicroService開發框架
+101. ⭐[QRCoder](https://github.com/codebude/QRCoder): QRCODE產生器
+102. [ckiptagger](https://github.com/ckiplab/ckiptagger): 中研院斷辭庫
 
 ## NodeJS
 1. [sequelize](https://github.com/sequelize/sequelize): ORM
