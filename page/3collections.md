@@ -127,7 +127,8 @@ type: page
 114. [FastReport](https://github.com/FastReports/FastReport): PDF報告產生
 115. [PdfReport.Core](https://github.com/VahidN/PdfReport.Core): PDF報告產生
 116. ⭐⭐[System.Linq.Dynamic.Core](https://github.com/StefH/System.Linq.Dynamic.Core): 動態LINQ
-117. ⭐[autocomplete](https://github.com/omerfarukz/autocomplete): 自動完成搜尋
+117. ⭐⭐[autocomplete](https://github.com/omerfarukz/autocomplete): 自動完成搜尋
+118. ⭐[WebEssentials.AspNetCore.ServiceWorker](https://github.com/madskristensen/WebEssentials.AspNetCore.ServiceWorker): PWA
 
 ## NodeJS
 1. [sequelize](https://github.com/sequelize/sequelize): ORM
