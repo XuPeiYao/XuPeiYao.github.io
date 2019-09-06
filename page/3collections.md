@@ -97,7 +97,6 @@ type: page
 83. [elasticsearch-net](https://github.com/elastic/elasticsearch-net): Elasticsearch Client
 84. [FluentScheduler](https://github.com/fluentscheduler/FluentScheduler): 排程
 85. [EasyNetQ](https://github.com/EasyNetQ/EasyNetQ): RabbitMQ Client
-86. [jwt](https://github.com/jwt-dotnet/jwt): JWT
 87. [MagicOnion](https://github.com/Cysharp/MagicOnion): 類似gRPC
 88. ⭐[Humanizer](https://github.com/Humanizr/Humanizer): 駝峰字串與普通字串互轉
 89. ⭐[AspNetCoreRateLimit](https://github.com/stefanprodan/AspNetCoreRateLimit): ASP.NET Core請求上限
@@ -119,6 +118,15 @@ type: page
 105. [AutoDiff](https://github.com/alexshtf/autodiff): 數學微分
 106. [UnitConversion](https://github.com/atulmish/UnitConversion): 單位轉換
 107. ⭐[BaGet](https://github.com/loic-sharma/BaGet): 輕量級NuGet伺服器
+108. ⭐[AngleSharp](https://github.com/AngleSharp/AngleSharp): HTML、SVG、MathML、XML剖析
+109. ⭐[CliWrap](https://github.com/Tyrrrz/CliWrap): CLI包裝
+110. ⭐[Enums.NET](https://github.com/TylerBrinkley/Enums.NET): Enum處理類別庫
+111. [FluentDocker](https://github.com/mariotoffia/FluentDocker): Docker API
+112. [Xabe.FFmpeg](https://github.com/tomaszzmuda/Xabe.FFmpeg): 非商用免費的FFMPEG包裝
+113. ⭐[YoutubeExplode](https://github.com/Tyrrrz/YoutubeExplode): Youtube影片資訊擷取與影片下載
+114. [FastReport](https://github.com/FastReports/FastReport): PDF報告產生
+115. [PdfReport.Core](https://github.com/VahidN/PdfReport.Core): PDF報告產生
+116. ⭐[System.Linq.Dynamic.Core](https://github.com/StefH/System.Linq.Dynamic.Core): 動態LINQ
 
 ## NodeJS
 1. [sequelize](https://github.com/sequelize/sequelize): ORM
