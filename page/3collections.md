@@ -114,6 +114,11 @@ type: page
 100. [microdot](https://github.com/gigya/microdot): MicroService開發框架
 101. ⭐[QRCoder](https://github.com/codebude/QRCoder): QRCODE產生器
 102. [ckiptagger](https://github.com/ckiplab/ckiptagger): 中研院斷辭庫
+103. ⭐[AspNetCore.Proxy](https://github.com/twitchax/AspNetCore.Proxy): ASP.NET Core API代理
+104. [WorkflowEngine.NET](https://github.com/optimajet/WorkflowEngine.NET): 工作流引擎
+105. [AutoDiff](https://github.com/alexshtf/autodiff): 數學微分
+106. [UnitConversion](https://github.com/atulmish/UnitConversion): 單位轉換
+107. ⭐[BaGet](https://github.com/loic-sharma/BaGet): 輕量級NuGet伺服器
 
 ## NodeJS
 1. [sequelize](https://github.com/sequelize/sequelize): ORM
