@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 - content
 {:toc}
 
-在開發一個讓使用者上傳壓縮檔的功能，並且在站台上解壓縮的功能，但在壓縮檔內含中文檔案名稱時發生檔案名稱亂碼的狀況。本文將簡單說明我是如何解決這個問題的。
+在開發一個功能時，需要實現一個解壓縮取得檔案列表的流程，但在壓縮檔內含中文檔案名稱時發生檔案名稱亂碼的狀況。本文將簡單說明我是如何解決這個問題的。
 
 <!--more-->
 
@@ -41,9 +41,11 @@ public class Program {
 }
 ```
 
-以上程式將獲得以下結果:
+以上程式再.NET Core將獲得以下結果:
 
 ![Imgur](https://imgur.com/6CV59Q7.png)
+
+但在傳統.NET Framework下是可以正常取得的。
 
 ## 問題原因
 
@@ -55,7 +57,9 @@ public class Program {
 zip 中文檔案名稱 中文檔案名稱.txt
 ```
 
-以上指令產生的壓縮檔則正常顯示，這是因為Linux使用UTF8進行檔案名稱編碼。
+這段指令產生的壓縮檔在上面測試程式中是可以正常顯示，這是因為Linux使用UTF8進行檔案名稱編碼。
+
+另外在傳統.NET Framework下可以正常解析的原因是.NET Core與.NET Framework的 `Encoding.Default` 的差異，在繁體中文系統下的.NET Framework下預設 `big5` 而.NET Core下預設為 `utf-8`。
 
 ## 解決問題
 
