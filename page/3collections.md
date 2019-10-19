@@ -129,6 +129,21 @@ type: page
 116. ⭐⭐[System.Linq.Dynamic.Core](https://github.com/StefH/System.Linq.Dynamic.Core): 動態LINQ
 117. ⭐⭐[autocomplete](https://github.com/omerfarukz/autocomplete): 自動完成搜尋
 118. ⭐[WebEssentials.AspNetCore.ServiceWorker](https://github.com/madskristensen/WebEssentials.AspNetCore.ServiceWorker): PWA
+119. [aspnet-api-versioning](https://github.com/Microsoft/aspnet-api-versioning): API版本支援
+120. ⭐⭐[Flurl](https://github.com/tmenier/Flurl): URL建構器
+121. ⭐⭐[JsonApiDotNetCore](https://github.com/json-api-dotnet/JsonApiDotNetCore): json:api的.NET Core實作
+122. ⭐⭐[OData](https://github.com/OData/WebApi/tree/feature/netcore): OData
+123. ⭐⭐[AsyncEx](https://github.com/StephenCleary/AsyncEx): Async的擴充
+124. [Carter](https://github.com/CarterCommunity/Carter): ASP.NET Core兼容Nancy
+125. ⭐⭐[Chromely](https://github.com/chromelyapps/Chromely): ElementNet的替代
+126. [Colorful.Console](https://github.com/tomakita/Colorful.Console): Console上色
+127. [K4os.Compression.LZ4](https://github.com/MiloszKrajewski/K4os.Compression.LZ4): LZ4/LH4HC的.NET Standard實作
+127. [sharpcompress](https://github.com/adamhathcock/sharpcompress): .NET Managed的壓縮庫
+128. [Polly](https://github.com/App-vNext/Polly): 應用程式重試策略
+129. [HttpListener](https://github.com/StefH/NETStandard.HttpListener): .NET Standard的HttpListener實作
+130. ⭐[Networker](https://github.com/MarkioE/Networker): 簡易的TCP、UDP連線構建
+131. [Enexure.MicroBus](https://github.com/daniellittledev/Enexure.MicroBus): 簡易Bus
+132. ⭐⭐[reCAPTCHA](https://github.com/PaulMiami/reCAPTCHA): reCAPTCHA for ASP.NET Core
 
 ## NodeJS
 1. [sequelize](https://github.com/sequelize/sequelize): ORM
