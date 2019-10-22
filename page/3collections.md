@@ -161,7 +161,7 @@ type: page
 |⭐⭐	|[JsonApiDotNetCore](https://github.com/json-api-dotnet/JsonApiDotNetCore)|json:api的.NET Core實作|
 |⭐	|[Carter](https://github.com/CarterCommunity/Carter)|ASP.NET Core兼容Nancy|
 
-## Other
+### Other
 |常用|名稱|敘述|
 |---|---|---|
 |	|[NanoFabric](https://github.com/geffzhang/NanoFabric)|MicroService開發框架|
