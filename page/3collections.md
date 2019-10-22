@@ -59,6 +59,9 @@ type: page
 |	|[Colorful.Console](https://github.com/tomakita/Colorful.Console)|Console上色|
 |	|[Polly](https://github.com/App-vNext/Polly)|應用程式重試策略|
 |	|[Enexure.MicroBus](https://github.com/daniellittledev/Enexure.MicroBus)|簡易Bus|
+|⭐⭐⭐	|[System.Linq.Dynamic.Core](https://github.com/StefH/System.Linq.Dynamic.Core)|動態LINQ|
+|⭐⭐	|[autocomplete](https://github.com/omerfarukz/autocomplete)|自動完成搜尋|
+|⭐⭐⭐	|[AsyncEx](https://github.com/StephenCleary/AsyncEx)|Async的擴充|
 
 ### Desktop
 |常用|名稱|敘述|
@@ -153,6 +156,10 @@ type: page
 |⭐⭐⭐	|[reCAPTCHA](https://github.com/PaulMiami/reCAPTCHA)|reCAPTCHA for ASP.NET Core|
 |⭐⭐⭐	|[NeinLinq](https://github.com/axelheer/nein-linq)|針對LINQ的擴展(EF6、EF Core)|
 |⭐⭐⭐	|[OData](https://github.com/OData/WebApi/tree/feature/netcore)|OData|
+|⭐	|[WebEssentials.AspNetCore.ServiceWorker](https://github.com/madskristensen/WebEssentials.AspNetCore.ServiceWorker)|PWA|
+|	|[aspnet-api-versioning](https://github.com/Microsoft/aspnet-api-versioning)|API版本支援|
+|⭐⭐	|[JsonApiDotNetCore](https://github.com/json-api-dotnet/JsonApiDotNetCore)|json:api的.NET Core實作|
+|⭐	|[Carter](https://github.com/CarterCommunity/Carter)|ASP.NET Core兼容Nancy|
 
 ## Other
 |常用|名稱|敘述|
@@ -161,15 +168,6 @@ type: page
 |	|[microdot](https://github.com/gigya/microdot)|MicroService開發框架|
 |⭐⭐	|[BaGet](https://github.com/loic-sharma/BaGet)|輕量級NuGet伺服器|
 |⭐⭐	|[YoutubeExplode](https://github.com/Tyrrrz/YoutubeExplode)|Youtube影片資訊擷取與影片下載|
-|⭐	|[WebEssentials.AspNetCore.ServiceWorker](https://github.com/madskristensen/WebEssentials.AspNetCore.ServiceWorker)|PWA|
-|	|[aspnet-api-versioning](https://github.com/Microsoft/aspnet-api-versioning)|API版本支援|
-|⭐⭐	|[JsonApiDotNetCore](https://github.com/json-api-dotnet/JsonApiDotNetCore)|json:api的.NET Core實作|
-|⭐	|[Carter](https://github.com/CarterCommunity/Carter)|ASP.NET Core兼容Nancy|
-
-
-|⭐⭐⭐	|[System.Linq.Dynamic.Core](https://github.com/StefH/System.Linq.Dynamic.Core)|動態LINQ|
-|⭐⭐	|[autocomplete](https://github.com/omerfarukz/autocomplete)|自動完成搜尋|
-|⭐⭐⭐	|[AsyncEx](https://github.com/StephenCleary/AsyncEx)|Async的擴充|
 
 ## NodeJS
 1. [sequelize](https://github.com/sequelize/sequelize): ORM
