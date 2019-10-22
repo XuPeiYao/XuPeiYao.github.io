@@ -144,6 +144,7 @@ type: page
 130. ⭐[Networker](https://github.com/MarkioE/Networker): 簡易的TCP、UDP連線構建
 131. [Enexure.MicroBus](https://github.com/daniellittledev/Enexure.MicroBus): 簡易Bus
 132. ⭐⭐[reCAPTCHA](https://github.com/PaulMiami/reCAPTCHA): reCAPTCHA for ASP.NET Core
+133. ⭐⭐[NeinLinq](https://github.com/axelheer/nein-linq): 針對LINQ的擴展(EF6、EF Core)
 
 ## NodeJS
 1. [sequelize](https://github.com/sequelize/sequelize): ORM
