@@ -63,6 +63,7 @@ type: page
 |⭐⭐⭐	|[System.Linq.Dynamic.Core](https://github.com/StefH/System.Linq.Dynamic.Core)|動態LINQ|
 |⭐⭐	|[autocomplete](https://github.com/omerfarukz/autocomplete)|自動完成搜尋|
 |⭐⭐⭐	|[AsyncEx](https://github.com/StephenCleary/AsyncEx)|Async的擴充|
+|⭐⭐⭐⭐ |[IPAddressRange](https://github.com/jsakamoto/ipaddressrange/)|IP範圍計算|
 
 ### Desktop
 
