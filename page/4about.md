@@ -34,43 +34,22 @@ type: page
 * 職稱: 專任助理
 * 工作內容: 開發與維護智慧校園App以及後台管理，另負責問卷系統開發與校園SSO(OAuth 2)認證服務開發。
 
-## 其他工作經歷
-
-### 2019
-* [BSL俱樂部](https://be-smart-loser.com/): VPS架設以及資料庫架設與建置、後端開發、CI/CD佈署等。
-* 能源系統風險評估平台: 後端撰寫、資料庫架設與環境建置、CI/CD等。
-
-### 2018
-* [潛行者事務所形象網站](http://divewalker.project.lightup-studio.com/): 依照網站需求進行資料庫設計以及後端API開發、站台架設。
-
-### 2016
-* RealSense程式設計: 實作Intel RealSense臉部識別程式，但由於Intel官方SDK並無提供編輯內部資料庫方法，所以另外自行分析其SDK內部資料格式，提供RunTime直接編輯資料庫內容。
-* WPF小遊戲: 利用WPF製作小型簡易大富翁類型遊戲。
-
-### 2015
-* [創意創新雲端平台](http://goodidea.nkfust.edu.tw): 依照校方課程與競賽需求設計以及後續維護。
-* iBeacon: 管理後臺應用程式後端開發。
-
 ## 技能
 ### Web Application Backend 
-* 熟練度: ⭐⭐⭐⭐
 
 `ASP.net MVC Core`、`Web API`、`RabbitMQ`、`Couchbase`、`MariaDB`、`Redis`、`PostgreSQL`、`SQL Server`、`Mongo DB`、`T-SQL`、`Linq`、`EntityFramework Core`、`Node.js`、`Line Message API(Bot)`、`OAuth2`、`JWT`、`WebSockets`、`SignalR`、`第三方登入`、`資料庫設計`、`系統分析與設計`
 
 ### Web Application Frontend
-* 熟練度: ⭐⭐⭐
 
-`TypeScript`、`JavaScript`、`Angular7`、`HTML5`、`WebSockets`
+`TypeScript`、`JavaScript`、`Angular`、`HTML5`、`WebSockets`
 
 ### Desktop Application
-* 熟練度: ⭐⭐⭐
 
 `electron.js`、`Windows Form`、`WPF`
 
 ### Other
-* 熟練度: ⭐⭐⭐
 
-`Sentry`、`FCM`、`Moq`、`Docker`、`xUnit`、`jenkins`、`caddy`、`nginx`、`git`、`Google Chrome Extensions`、`Raspberry Pi`、`Ubuntu`、`Navicat`、`Jekyll`
+`Sentry`、`FCM`、`Moq`、`Docker`、`xUnit`、`jenkins`、`caddy`、`nginx`、`git`、`Google Chrome Extensions`、`Raspberry Pi`、`Ubuntu`、`Navicat`、`Jekyll`、`cloudflare`
 
 ## 學歷
 * 國立高雄第一科技大學資訊管理系: 2012/09~2016/06

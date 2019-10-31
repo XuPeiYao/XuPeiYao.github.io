@@ -14,8 +14,9 @@ type: page
 ## .NET
 
 ### General
+
 |常用|名稱|敘述|
-|---|---|---|
+|-----------------|------------|-----------------|
 |	|[coravel](https://github.com/jamesmh/coravel)|排程|
 |	|[JIEba-netcore2.0](https://github.com/SilentCC/JIEba-netcore2.0)|適用於.NET Core的結巴分詞套件|
 |⭐⭐⭐	|[IP2Country](https://github.com/RobThree/IP2Country)|透過IP轉國家代碼|
@@ -62,16 +63,19 @@ type: page
 |⭐⭐⭐	|[System.Linq.Dynamic.Core](https://github.com/StefH/System.Linq.Dynamic.Core)|動態LINQ|
 |⭐⭐	|[autocomplete](https://github.com/omerfarukz/autocomplete)|自動完成搜尋|
 |⭐⭐⭐	|[AsyncEx](https://github.com/StephenCleary/AsyncEx)|Async的擴充|
+|⭐⭐⭐⭐ |[IPAddressRange](https://github.com/jsakamoto/ipaddressrange/)|IP範圍計算|
 
 ### Desktop
+
 |常用|名稱|敘述|
-|---|---|---|
+|-----------------|------------|-----------------|
 |	|[Electron.NET](https://github.com/ElectronNET/Electron.NET)|
 |⭐	|[Chromely](https://github.com/chromelyapps/Chromely)|ElementNet的替代|
 
-### Formats
+### Format
+
 |常用|名稱|敘述|
-|---|---|---|
+|-----------------|------------|-----------------|
 |	|[reversemarkdown-net](https://github.com/mysticmind/reversemarkdown-net)|HTML轉Markdown|
 |	|[markdig](https://github.com/lunet-io/markdig)|Markdown轉HTML|
 |	|[Open-XML-SDK](https://github.com/OfficeDev/Open-XML-SDK)|Office文件產生|
@@ -96,8 +100,9 @@ type: page
 |	|[sharpcompress](https://github.com/adamhathcock/sharpcompress)|.NET Managed的壓縮庫|
 
 ### Network & Services & Email
+
 |常用|名稱|敘述|
-|---|---|---|
+|-----------------|------------|-----------------|
 |⭐⭐	|[WebApiClient](https://github.com/dotnetcore/WebApiClient)|Retrofit|
 |⭐⭐⭐	|[FluentFTP](https://github.com/robinrodricks/FluentFTP)|FTP Client|
 |	|[aliyun-oss-csharp-sdk](https://github.com/aliyun/aliyun-oss-csharp-sdk)|阿里雲OSS SDK|
@@ -121,8 +126,9 @@ type: page
 |⭐⭐⭐⭐	|[Networker](https://github.com/MarkioE/Networker)|簡易的TCP、UDP連線構建|
 
 ### Web & Database
+
 |常用|名稱|敘述|
-|---|---|---|
+|-----------------|------------|-----------------|
 |⭐⭐⭐	|[Hangfire](https://github.com/HangfireIO/Hangfire)|排程|
 |⭐⭐⭐	|[DeviceDetector.NET](https://github.com/totpero/DeviceDetector.NET)|使用者瀏覽器識別|
 |⭐	|[grpc-dotnet](https://github.com/grpc/grpc-dotnet)|GRPC|
@@ -162,8 +168,9 @@ type: page
 |⭐	|[Carter](https://github.com/CarterCommunity/Carter)|ASP.NET Core兼容Nancy|
 
 ### Other
+
 |常用|名稱|敘述|
-|---|---|---|
+|-----------------|------------|-----------------|
 |	|[NanoFabric](https://github.com/geffzhang/NanoFabric)|MicroService開發框架|
 |	|[microdot](https://github.com/gigya/microdot)|MicroService開發框架|
 |⭐⭐	|[BaGet](https://github.com/loic-sharma/BaGet)|輕量級NuGet伺服器|
@@ -196,7 +203,7 @@ type: page
 24. [Chart.js](https://github.com/chartjs/Chart.js): 圖表
 25. [ant.design](https://ant.design/): 前端UI
 26. [xregexp](https://github.com/slevithan/xregexp): 進階Regex擴充包
-
+27. [FullCalendar](https://fullcalendar.io/#demos]): Angular的月曆
 ## 文章回覆
 
 {% include comments.html %}
