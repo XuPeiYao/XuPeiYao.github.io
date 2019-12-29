@@ -64,6 +64,7 @@ type: page
 |⭐⭐	|[autocomplete](https://github.com/omerfarukz/autocomplete)|自動完成搜尋|
 |⭐⭐⭐	|[AsyncEx](https://github.com/StephenCleary/AsyncEx)|Async的擴充|
 |⭐⭐⭐⭐ |[IPAddressRange](https://github.com/jsakamoto/ipaddressrange/)|IP範圍計算|
+|⭐⭐⭐|[SimpleExec](https://github.com/adamralph/simple-exec)|簡易調用EXE|
 
 ### Desktop
 
@@ -121,7 +122,7 @@ type: page
 |	|[EasyNetQ](https://github.com/EasyNetQ/EasyNetQ)|RabbitMQ Client|
 |	|[elasticsearch-net](https://github.com/elastic/elasticsearch-net)|Elasticsearch Client|
 |⭐⭐⭐	|[Flurl](https://github.com/tmenier/Flurl)|URL構建器和可測試的HTTP客戶端|
-|⭐⭐⭐ |[Docker.DotNet](https://github.com/microsoft/Docker.DotNet)|
+|⭐⭐⭐⭐ |[Docker.DotNet](https://github.com/microsoft/Docker.DotNet)|Docker API|
 |	|[FluentDocker](https://github.com/mariotoffia/FluentDocker)|Docker API|
 |	|[HttpListener](https://github.com/StefH/NETStandard.HttpListener)|.NET Standard的HttpListener實作|
 |⭐⭐⭐⭐	|[Networker](https://github.com/MarkioE/Networker)|簡易的TCP、UDP連線構建|
@@ -167,6 +168,8 @@ type: page
 |	|[aspnet-api-versioning](https://github.com/Microsoft/aspnet-api-versioning)|API版本支援|
 |⭐⭐	|[JsonApiDotNetCore](https://github.com/json-api-dotnet/JsonApiDotNetCore)|json:api的.NET Core實作|
 |⭐	|[Carter](https://github.com/CarterCommunity/Carter)|ASP.NET Core兼容Nancy|
+|⭐⭐⭐ |[Dommel](https://github.com/henkmollema/Dommel)|在Dapper上實作CRUD操作方法|
+||[CouchDB.NET](https://github.com/matteobortolazzo/couchdb-net)|CouchDB .NET Dirver|
 
 ### Other
 
