@@ -121,6 +121,7 @@ type: page
 |	|[EasyNetQ](https://github.com/EasyNetQ/EasyNetQ)|RabbitMQ Client|
 |	|[elasticsearch-net](https://github.com/elastic/elasticsearch-net)|Elasticsearch Client|
 |⭐⭐⭐	|[Flurl](https://github.com/tmenier/Flurl)|URL構建器和可測試的HTTP客戶端|
+|⭐⭐⭐ |[Docker.DotNet](https://github.com/microsoft/Docker.DotNet)|
 |	|[FluentDocker](https://github.com/mariotoffia/FluentDocker)|Docker API|
 |	|[HttpListener](https://github.com/StefH/NETStandard.HttpListener)|.NET Standard的HttpListener實作|
 |⭐⭐⭐⭐	|[Networker](https://github.com/MarkioE/Networker)|簡易的TCP、UDP連線構建|
