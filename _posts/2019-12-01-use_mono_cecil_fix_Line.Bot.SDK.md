@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 ---
 
 - content
-  {:toc}
+{:toc}
 
 在開發 Line 機器人的過程中我常使用[Line.Bot.SDK](https://github.com/dlemstra/line-bot-sdk-dotnet)套件開發，但這個套件並不支援 FlexMessage，且自訂的訊息類型無法支援。本文將說明問題原因並使用`Mono.Cecil`套件解決這個套件不支援自訂訊息類型的問題。
 
