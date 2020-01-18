@@ -7,9 +7,9 @@
 
 # Site settings
 title: XuPeiYao's Blog
-brief-intro: .Net Core Programmer
-baseurl: '' # the subpath of your site, e.g. /blog
-url: 'https://xupeiyao.github.io' # the base hostname & protocol for your site
+brief-intro: /* Life Runs on Code */
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://xupeiyao.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
@@ -23,7 +23,7 @@ zhihu_username:
 linkedIn_username:
 dribbble_username:
 
-description_footer: 這裡記錄我平時遇到的問題以及有趣的套件等......
+description_footer: 這裡記錄我平時遇到的問題以及有趣的套件以及學習歷程
 
 # comments
 # two ways to comment, only choose one, and use your own short name
