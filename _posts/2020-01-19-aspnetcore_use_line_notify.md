@@ -67,7 +67,7 @@ public class NotifyController : Controller
 }
 ```
 
-#### LINE 登入畫面跳轉
+### LINE 登入畫面跳轉
 
 在剛才的 NotifyController 中加入兩個 Action 用以跳轉畫面至 LINE Notify 的授權畫面。
 其中第二個 BindCallback 方法為前一章節所提及的 Callback URL 項目，請先進入 LINE Notify 的控制介面變更網址為你 ngrok 的 BindCallback Action 的網址。
@@ -187,7 +187,7 @@ public class TokenResult
 
 ### 推送通知
 
-上述流程已經將使用者與其對應的 Notify 的 Token 對應，接下來只要使用特定使用者 Token 調用 API 急可以傳送通知。
+上述流程已經將使用者與其對應的 Notify 的 Token 對應，接下來只要使用特定使用者 Token 調用 API 就可以傳送通知。
 
 ```csharp
 // 使用code取得access token
