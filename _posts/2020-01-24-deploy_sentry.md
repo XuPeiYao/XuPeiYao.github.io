@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "使用Docker佈署Sentry"
-categories: .NET
+categories: Docker
 tags: Docker Sentry
 author: XuPeiYao
 excerpt_separator: <!--more-->
