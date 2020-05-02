@@ -65,6 +65,7 @@ type: page
 |⭐⭐⭐	|[AsyncEx](https://github.com/StephenCleary/AsyncEx)|Async的擴充|
 |⭐⭐⭐⭐ |[IPAddressRange](https://github.com/jsakamoto/ipaddressrange/)|IP範圍計算|
 |⭐⭐⭐|[SimpleExec](https://github.com/adamralph/simple-exec)|簡易調用EXE|
+|⭐⭐|[CsvHelper](https://github.com/JoshClose/CsvHelper)|CSV剖析|
 
 ### Desktop
 
